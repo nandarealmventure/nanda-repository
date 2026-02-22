@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --primary-color: #f6f3f6;
+    --secondary-color: #7d367d;
+    --accent-color: #9a33cc;
+    --font-color: #ffff;
+}
+
+.main-section{
+    background-color: var(--primary-color);
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    width: 90%;
+    height: 90px;
+    margin: auto;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.navbar a{
+    color: var(--font-color);
+    text-decoration: none;
+    margin-right: 70px;
+}
+
+.hero-section{
+    margin-top: 5px;
+    display: flex;
+    padding: 50px;
+    height: 70vh;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-section button{
+    display: flex;
+    background-color: var(--accent-color);
+    color: var(--font-color);
+    border: none;
+    height: 80px;
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section button:hover {
+    box-shadow: 0px 4px 15px var(--secondary-color);
+}
+
+/*App Html*/
+.container{
+    align-items: center;
+    background-color: var(--primary-color);
+    border-color: var(--accent-color);
+    height: 80vh;
+    width: 100%;
+    max-width: 800px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heder h4{
+    color: #7d367d;
+}
+
+
+#body-apphtml{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.header{
+    margin-bottom: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:root{
+    --primary-color: #f6f3f6;
+    --secondary-color: #7d367d;
+    --accent-color: #9a33cc;
+    --font-color: #ffff;
+}
+
+#start-btn{
+    width: 100px;
+    height: 40px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+#start-btn:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05);
+}
+
+#input-area{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    border: 2px solid var(--accent-color);
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    cursor: not-allowed;
+}
+
+#input-area:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 5px var(--accent-color);
+}
+
+.word-display{
+    width: 500px;
+    height: 30vh;
+    background-color: transparent;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    border: solid var(--accent-color) 2px;
+    overflow: hidden;
+    
+}
+
+.word-data{
+    display: none;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 15px;
+    padding: 20px;
+    width: 100%;
+}
+
+.showword {
+    padding: 8px 12px;
+    background-color: #e0e0e0;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: default;
+}
+
+.showword:hover {
+    transform: scale(1.05);
+}
+
+.showcase{
+    font-size: larger;
+}
+
+.results{
+    display:none;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
